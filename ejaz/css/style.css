@@ -1,0 +1,818 @@
+
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+
+body {
+    color: black;
+    font-family: 'El Messiri', sans-serif;
+}
+
+header {
+    background-color: white;
+   
+}
+.header-main{
+    transition: all 0.3s ease-in;
+
+}
+.header-news {
+   
+    color: #fff;
+    padding: 4px;
+}
+
+.row ~ div {
+    padding: 0;
+  
+}
+p{
+    cursor: pointer;
+}
+.right{
+    right: 0px;
+}
+.opacity {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(8, 8, 8, 0.205);
+    position: absolute;
+    overflow: hidden;
+    z-index: 66666;
+ 
+}
+.parts2 {
+    transition: all 0.5s ease-in-out;
+}
+
+.social{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 10px 0 0 0;
+    margin-top: 3px;
+    
+}
+
+/* header*/
+.weather {
+    padding: 26px 0 0 26px;
+
+}
+.weather img {
+    height: 30px;
+    width: 30px;
+}
+.country {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.logo{
+    height: 90px;
+    width: 150px; 
+    margin: 0 11%; 
+}
+.logo img {
+    width: 100% ;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+.appeare {
+    display: block;
+}
+.float-logo {
+    float: right;
+    height: 80px;
+    padding: 5px;
+  
+}
+
+.border-input {
+    border-radius: 0 0 0 24px;
+}
+.fixed-margin {
+    margin-top: 20px;
+   
+}
+
+
+
+.parts li  {
+    border-right:  2px solid lightsteelblue;
+    padding: 0 8px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+}
+.parts li:hover {
+    color: deepskyblue;
+}
+.parts .list-icon {
+    display: none;
+}
+
+.parts li:last-child {
+    border-right: none;
+}
+.header-search , .weather{
+   
+    padding: 10px;
+  
+}
+
+.header-search i {
+    padding: 6px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 7;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out ;
+    float: left;
+    left: 24px;
+}
+.header-search  input{
+    height: 26px;
+      width: 0;
+     border: none;
+    transition: all 0.3s ease-in-out;
+    text-align: right;
+   
+}
+
+ .header-search .open-search {
+    width: 120px;
+    border: 1px solid black;
+    margin-left: 28px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.navbar-header {
+    position: absolute;
+    float: right;
+    right: 20px;
+    padding: 0px;
+    top: 7px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-header .search {
+    height: 30px;
+    margin: 5px;
+    width: 184px;
+    text-align: right;
+}
+
+.color{
+    color: transparent;
+}
+.header-search span{
+    border: 1px solid black ;
+    padding: 0 4px ;
+    font-weight: bold ;
+    cursor: pointer ;
+    display: contents;
+    width: 26px;
+    
+}
+
+.display{
+    display: inline-flex;
+    color: black;
+}
+
+
+
+
+
+.header-news .container {
+    background-color: navy;
+}
+.header-news button {
+    color: navy;
+    font-weight: bold;
+    padding: 9px ;
+    height: max-content;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.header-news button:hover {
+
+    color: goldenrod;
+    
+}
+.header-all-news i {
+    color: black;
+}
+
+.header-all-news{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+  
+
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+ 
+.last-news .carousel-inner , .last-news .carousel-inner .item {
+    height: 100%;
+}
+.carousel-inner>.item>img{
+    height: 100%;
+    width: 100%;
+}
+.header-all-news ,.header-slid , .slide , .carousel-item{
+    background-color: navy
+    
+}
+.header-slid{
+    width: 90%;
+    padding: 10px;
+    height: 40px;
+}
+
+.header-news.slide {
+    height: 100%;
+ 
+}
+
+.header-news .carousel-item {
+    width: 100%;
+    text-align: right;
+    height: 100%;
+}
+.header-news .carousel-control-next{
+    left: 35px;
+}
+.car1 img {
+    height :100%;
+    width: 100%;
+ 
+}
+.last-iraq {
+   
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 3px;
+   
+    
+}
+.last-iraq:hover > .fa-clock {
+    left: 5px;
+   
+}
+.last-iraq:hover > .opacity {
+    box-shadow: inset  3px 11px  51px  rgba(0, 0, 0, 0.527);
+}
+.car1:hover > .fa-clock {
+    left: 5px;
+   
+}
+.car1{
+    position: relative;
+}
+.car1:hover > .opacity {
+    box-shadow: inset  3px 11px  51px  rgba(0, 0, 0, 0.527);
+}
+.last-news .carousel-inner:hover > .fa-clock {
+    left: 5px;
+   
+}
+.last-news .carousel-inner{
+    position: relative;
+}
+.last-news :hover > .opacity {
+    box-shadow: inset  3px 11px  51px  rgba(0, 0, 0, 0.527);
+}
+.iraq-news-section:hover > .fa-clock {
+    left: 5px;
+   
+}
+.iraq-news-section:hover > div img {
+  transform: scale(1, 1.2);
+  
+}
+.fa-clock {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    margin: 6px;
+    left: -150px;
+    transition: all 0.5s ease-in-out;
+    z-index: 3444;
+ 
+}
+.iraq-news-section .opacity {
+    width: 100%;
+    z-index: 5555;
+    
+   
+}
+.last-iraq img {
+    height: 100%;
+    width: 100%;
+}
+.car1 {
+    padding: 0;
+}
+
+.carousel-margin {
+    margin-bottom: 5px;
+}
+
+.title-section-trend button {
+    transition: all 0.5s ease-in-out;
+    border-radius: 16px;
+    padding: 7px;
+    border: 1px solid white;
+}
+.title-section-trend button:hover {
+    background-color: rgb(51, 49, 49);
+    color: white;
+
+}
+.last-iraq-title h3 {
+    border-radius: 3px;
+    background: deepskyblue;
+    width: max-content;
+    padding: 2px;
+    
+}
+.last-iraq-title{
+    position: absolute;
+    color:  white;
+    font-weight: bold;
+    bottom: 0;
+    text-align: -webkit-right;
+    padding-right: 30px;
+    height: max-content;
+    overflow: hidden;
+    width: 100%;
+   z-index: 33333333;
+
+}
+
+
+
+.news-slide img {
+    height: 100%;
+}
+div.facebook {
+    text-align: right;
+}
+div.facebook i {
+    color: blue;
+    padding:2px;
+}
+.iraq-news {
+    padding-top: 10px;
+}
+.iraq-news-section {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #d0cdcd;
+    margin-bottom: 11px;
+}
+.iraq-news-section div {
+    height: 200px;
+    overflow: hidden;
+}
+.iraq-news-section img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.iraq-news-section div span {
+    position: absolute;
+    right: 17px;
+    color: white;
+    bottom: 37%;
+    text-align: center;
+    background: deepskyblue;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px;
+}
+.iraq-news-section p{
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+}
+.iraq-news {
+    background-color: #ccc;
+}
+
+.fixed-top {
+    background-color: white;
+    border-radius: 0 0 65px 65px ;
+    border: 1px solid dodgerblue;
+    z-index: 999999999999999;
+    
+}
+/*.fixed-top .logo {
+    height: 100px;
+    width: 100px;
+    float: right;
+
+}*/
+
+.car1 {
+    height: 100%;
+}
+.trend-details p.trend-title{
+    position: absolute;
+    bottom: 28px;
+    right: 5px;
+    background: #00000073;
+    width: 97%;
+    font-size: 12px;
+    text-align: right;
+    padding: 17px;
+    color: white;
+
+
+}
+.trend-news {
+    background-color: #bdeaeb;
+}
+.trend-details {
+    padding: 5px;
+}
+.trend-details img {
+    width: 100%;
+}
+.trending {
+    padding: 0;
+}
+.trend-details  div {
+    background-color: rgb(61, 60, 60);
+    text-align: right;
+    height: 30px;
+}
+.trend-details  div p.trend-more{
+    background-color: deepskyblue;
+    padding: 3px;
+    width: max-content;
+    float: right;
+    height: 100%;
+    font-size: 10px;
+}
+
+.title-section h3 {
+    font-size: 18px;
+    text-align: right;
+    padding-right: 23px;
+}
+.title-section button {
+    position: absolute;
+    top: 20px;
+}
+.title-section-trend span {
+    float: right;
+
+}
+.title-section-trend  {
+    padding: 5px;
+}
+
+.last-news .icon-next,  .last-news .icon-prev {
+    height: max-content;
+    margin: 5px;
+    background: #ffffff96;
+    width: 31px;
+    color: dodgerblue;
+    border: 1px solid;
+   
+   
+
+}
+
+.last-news .icon-next
+{
+    left: 81px;
+    top :10px;
+}
+.last-news .icon-prev  {
+    margin-left: 80%;
+    top: 10px;
+    left: -17px;
+
+}
+
+.last-news {
+    margin: 8px;
+}
+.title-section-trend button {
+    margin-top:  15px 
+    ;
+}
+
+.title-section-trend {
+    border-bottom:  2px solid lightsteelblue;
+    margin-bottom: 7px;
+}
+.title-section-trend .hover {
+    position: absolute;
+    bottom: 0;
+    right: 22px ;
+    height: 3px;
+    width: 50px;
+    background-color: deepskyblue;
+    transition: all 0.5s ease-in-out;
+}
+.title-section-trend div:hover > .hover {
+    width: 100px;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    background-color: grey;
+}
+.footer .footer-logo {
+     height: 78px;
+     position: absolute;
+     background-color: grey;
+     border-radius: 15px 15px 0 0 ;
+     top: -30px;
+     padding: 5px;
+    
+}
+.footer .footer-logo  img {
+    height: 100%;
+   cursor: pointer;
+}
+.footer .footer-logo:hover {
+    border: 1.3px solid dodgerblue;
+}
+.footer .social-footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: #c8c2c2;
+}
+
+.footer .social-footer i {
+    padding: 6px ;
+    border-radius: 55%;
+    transition: all 0.5s ease-out;
+}
+.footer .social-footer i:hover {
+    background-color: dodgerblue;
+  
+}
+
+.footer li {
+     color: rgb(48, 44, 44);
+     padding: 6px;
+     margin: 10px;
+     font-size: 18px;
+     transition: all 0.5s ease-out;
+}
+.footer li:hover {
+     color: white;
+}
+.it {
+    font-size: 13px;
+    color: rgb(58, 57, 57);
+    margin-bottom: 5px;
+}
+.it span {
+    color: white;
+    border-left: 2px solid  rgb(58, 57, 57);
+    padding-left: 3px;
+}
+.vedio-news img {
+    width: 100%;
+}
+.vedio-news {
+    overflow: hidden;
+    background-color: gray;
+    position: relative;
+}
+.vedio-news div.col-md-12 {
+    overflow: hidden;
+    padding: 20px;
+   
+}
+
+.vedio-news div.col-md-11 a {
+    color: white;
+}
+.vedio-news .flickity-page-dots{
+    display: none;
+}
+
+.vedio-news .flickity-prev-next-button.previous ,
+.vedio-news .flickity-prev-next-button.next {
+    color: #FFF;
+    background: rgb(172, 169, 169);
+    border-radius: 0;
+    height: 27px;
+    width: 27px;
+   position: absolute;
+   top: 13px;
+}
+.vedio-news .flickity-prev-next-button.next {
+    left: 35px;
+}
+.vedio-news .carousel{
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.vedio-news .carousel-title {
+    position: relative;
+
+}
+.vedio-news .carousel-title h2 {
+    background: deepskyblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 17px;
+    margin: 11px;
+}
+.vedio-news a  , .clock{
+    color: white;
+}
+.vedio-news a:hover {
+    
+    color: deepskyblue;
+}
+.carousel-text {
+padding: 6px;
+}
+
+@media only screen and (max-width:767px){
+    
+    header  {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .header-all-news button {
+        position: absolute;
+    }
+    .navbar-nav>li{
+        display: block;
+    }
+    .header-main {
+        height: max-content;
+       
+    }
+    .header-search{
+        float: left;
+          
+    }
+    header .logo {
+        width: 80px;
+        margin-left:  45px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: black;
+    }
+    
+    .title-section-trend button{
+        position: absolute;
+    }
+    .car1 {
+        position: relative;
+        margin-bottom: 5px;
+    }
+    .list-inline.parts2{
+        position: absolute;
+        width: 300px;
+        z-index: 9999999999;
+        display: inline-grid;
+        overflow-y: hidden;
+        transition: all 0.5s ease-in-out;
+        background: rgb(51, 44, 44);
+        color: white;
+        padding: 5px;
+        text-align: center;
+        right: 3px;
+        position: fixed;
+        height: 100vh;
+        top: 0;
+    }
+    footer .parts li {
+    display: inline-flex;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    cursor: pointer;
+   
+    }
+    .parts li:hover , .parts i:hover {
+        color: deepskyblue;
+    }
+   
+    .parts li:last-child {
+        border-right: 2px solid rgb(168, 166, 166);
+    }
+  
+    .list-inline.parts2 i {
+        padding: 0 5px;
+        font-size: 25px;
+    }
+    .list-inline.parts2 li{
+        transition: all 0.5s ease-in-out;
+        margin: 2px;
+       
+    }
+    .list-inline.parts2 li:hover  {
+       border: 1px solid white;
+    }
+    .header-main .parts .parts-header {
+        display: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    
+    .parts .fa-list {
+    font-size: 18px;  
+    padding: 3px 9px;
+    border: 1px solid black;
+    }
+    .parts .list-icon {
+        display: inline-block;
+        margin-top: 7px;
+    }
+    .container-fluid>.navbar-collapse {
+        z-index: 4444444444;
+    }
+    footer {
+        font-size: 8px;
+        padding: 2px;
+       
+    }
+    .footer .footer-logo {
+        top: -129px;
+        margin-right: 14%;
+        right: 102px;
+        cursor: pointer;
+    }
+    .footer li {
+        margin: 2px;
+    }
+    footer ul {
+        margin-top: 17px;
+       
+    }
+    /*end media*/
+}
+.breaking-news-section {
+    padding: 2px ;
+    display: flex;
+   overflow-y: hidden;
+
+}
+.btext {
+
+   width: 200px;
+   font-size: 16px;
+   color: var(--colorBrown);
+   font-size: 600;
+   margin: auto 0 ;
+}
+.breaking-news {
+   padding: 10px;
+   color: #fff;
+   font-weight: 600;
+   display: inline-block;
+}
+.breaking-news:hover , .social-icons i:hover{
+  color: white;
+   cursor: pointer;
+  
+}
+
+.bntime
+{
+   display: inline-block;
+   color: rgba(255,255,255,0.5);
+   padding: 0 10px ;
+   font-size: 12px;
+
+}
